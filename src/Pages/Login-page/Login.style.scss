@@ -1,0 +1,112 @@
+.login-cont {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-holder {
+    margin: 70px;
+}
+
+.logo {
+    width: 138.44px;
+    height: 36px;
+    color: #213F7D;
+}
+
+.login-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.welcome-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;letter-spacing: -0.04em;
+    color: #213F7D;
+    margin: 10px;
+}
+
+.details-text {
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #545F7D;
+    margin: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+
+.input-field {
+    width: 447px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: 2px solid rgba(84, 95, 125, 0.15);
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.input-field::placeholder {
+    transform: translateX(10px);
+}
+
+.btn {
+    background-color: #39CDCC;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF ;
+    width: 447px;
+    height: 50px;
+    margin: 10px;
+}
+
+span {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #39CDCC;
+}
+
+.show-span {
+    transform: translateX(-70px);
+    position: absolute;
+    margin-top: 33px;
+}
+
+.forgot-span {
+    margin: 20px;
+}
+
+.image-holder {
+    margin-top: 70px;
+    width: 700px;
+    height: 337.57px;
+    
+}
+
+.signin-img {
+    width: 600px;
+    height: 337.57px;
+}
