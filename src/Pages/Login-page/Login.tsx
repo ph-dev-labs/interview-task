@@ -36,7 +36,7 @@ const Login = () => {
               />{" "}
               <span className="show-span">show</span>
             </div>
-            <span className="forgot-span">Forgot password?</span>
+            <span className="forgot-span">Forgot password ?</span>
             <input type="submit" placeholder="Login" className="btn" />
           </form>
         </div>

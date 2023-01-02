@@ -1,0 +1,130 @@
+.navbar {
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  background-color: #ffffff;
+  box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+}
+
+.logo-holder {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.inpt-holder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-inpt {
+  height: 40px;
+  width: 400px;
+  background-color: #ffffff;
+  opacity: 0.2;
+  border: 1px solid #213f7d;
+  border-radius: 8px;
+  color: #000000;
+  overflow: hidden;
+}
+
+.search-inpt::placeholder {
+  transform: translateX(10px);
+  font-family: "Poppins";
+  border: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+}
+
+.nav-logo {
+  height: 30px;
+  width: 144.803955078125px;
+}
+
+.search-icon {
+  height: 40px;
+  width: 56px;
+  background-color: #39cdcc;
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+  transform: translateX(-9px);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  cursor: pointer;
+}
+.search {
+  margin: 10px;
+}
+
+.docs-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 30%;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.docs {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  cursor: pointer;
+  color: #213f7d;
+}
+.notification {
+  text-align: center;
+  color: #213f7d;
+  font-size: 23px;
+}
+
+.profile-image-holder {
+  height: 58px;
+  width: 58px;
+  border-radius: 50%;
+  background-color: #777;
+  text-align: center;
+}
+
+.profile-image {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.profile-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #213f7d;
+}
+
+.dropdown-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  color: #213f7d;
+}
+.down-icon {
+  margin: 7px;
+  margin-top: 19px;
+}

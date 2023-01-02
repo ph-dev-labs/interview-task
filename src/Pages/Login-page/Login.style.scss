@@ -60,6 +60,12 @@
 
 .input-field::placeholder {
     transform: translateX(10px);
+    font-family: 'Poppins';
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
 }
 
 .btn {
