@@ -1,22 +1,31 @@
-import React from 'react'
-import { IoHomeOutline } from "react-icons/io5"
-import { MdHomeRepairService } from "react-icons/md"
-import "./Sidebar.scss"
+import React from "react";
+import { IoHomeOutline } from "react-icons/io5";
+import { MdHomeRepairService } from "react-icons/md";
+import "./Sidebar.scss";
 const Sidebar = () => {
   return (
-    <div className='sidebar'>
+    <div className="sidebar">
+      <div>
         <div>
-            <div><MdHomeRepairService /></div>
-            <p>switch organisation</p>
-            <div></div>
-        </div><br /> <br />
-        <div>
-            <div> <IoHomeOutline /> </div>
-            <p>Dashboard</p>
+          <MdHomeRepairService />
         </div>
-
+        <p>switch organisation</p>
+        <div></div>
+      </div>
+      <br />
+      <br />
+      <div>
+        <div>
+          {" "}
+          <IoHomeOutline />{" "}
+        </div>
+        <p>Dashboard</p>
+      </div>
+      <br />
+      <br />
+      <p>customers</p>
     </div>
-  )
-}
+  );
+};
 
-export default Sidebar
+export default Sidebar;
